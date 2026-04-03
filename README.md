@@ -1,4 +1,4 @@
-# portfolio-review
+# Portfolio Review Skill for Claude Code
 
 A Claude Code skill that conducts comprehensive design portfolio reviews from a hiring manager perspective. Created by Won J. You.
 
