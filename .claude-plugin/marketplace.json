@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-review-skill",
+  "id": "portfolio-review-skill",
+  "owner": {
+    "name": "Won J. You"
+  },
+  "metadata": {
+    "description": "Design portfolio review skill from a hiring manager perspective",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "portfolio-review",
+      "source": "./",
+      "description": "Conducts structured design portfolio reviews from a hiring manager perspective. Evaluates across copy, IA, positioning, visual design, usability, case studies, and leadership signals. Produces severity-coded reports with optional HTML export.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Won J. You"
+      },
+      "keywords": ["design", "portfolio", "ux", "hiring", "review", "career"],
+      "category": "design",
+      "strict": false
+    }
+  ]
+}

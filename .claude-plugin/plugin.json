@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-review",
+  "description": "Design portfolio review skill from a hiring manager perspective. Evaluates portfolios across copy, IA, positioning, case studies, visual design, usability, and leadership signals. Produces a structured annotated report with severity-coded issues, a priority action plan, and an optional HTML export. Created by Won J. You.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Won J. You"
+  },
+  "license": "MIT",
+  "keywords": ["design", "portfolio", "ux", "hiring", "review", "career"],
+  "skills": ["./.claude/skills/portfolio-review"]
+}

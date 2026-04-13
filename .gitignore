@@ -1,0 +1,8 @@
+# Local Claude Code settings (machine-specific paths and permissions)
+.claude/settings.local.json
+
+# Auto-generated skill cache (copied from SKILL.md on install)
+.claude/skills/
+
+# Generated review reports
+*.html
