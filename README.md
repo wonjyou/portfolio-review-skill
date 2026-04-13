@@ -1,4 +1,4 @@
-# Portfolio Review Skill for Claude Code
+# portfolio-review
 
 A Claude Code skill that conducts comprehensive design portfolio reviews from a hiring manager perspective. Created by Won J. You.
 
@@ -40,6 +40,64 @@ The skill activates when someone:
 - **What's Working** — genuine strengths to preserve
 - **Hiring Manager Verdict** — candid debrief as if briefing a recruiter
 - **Optional HTML export** — self-contained file with styled layout, color-coded severity, and checklist rendering
+
+## Example use cases
+
+### Full portfolio review before a job search
+
+> "I'm applying for senior product designer roles at mid-size startups. Here's my portfolio: https://yourname.com — can you do a full review?"
+
+Claude opens with two clarifying questions, then delivers a scored report across all dimensions with severity-coded issues and a prioritized top-5 fix list.
+
+---
+
+### Readiness check for a specific company tier
+
+> "Is my portfolio ready for a FAANG-level senior IC role? PDF attached."
+
+Claude calibrates the review against Senior/Staff-level expectations — emphasizing systems thinking, measurable outcomes, and cross-functional influence signals — and gives a candid hiring-manager verdict.
+
+---
+
+### Single case study deep dive
+
+> "I want feedback only on my checkout redesign case study: https://yourname.com/checkout. I'm targeting a lead role."
+
+Claude scopes the review to that case study and evaluates problem framing, role clarity, process documentation, decision rationale, and outcome evidence at lead-level bar.
+
+---
+
+### First portfolio out of bootcamp
+
+> "I just finished a UX bootcamp and built my first portfolio. Roast it: https://yourname.com"
+
+Claude applies the junior-level rubric, flags the most common entry-level mistakes (assertion-without-evidence, missing context, weak CTAs), and outputs a prioritized action plan.
+
+---
+
+### Freelance / agency positioning
+
+> "I do brand and web design for agencies. Here's my site: https://yourname.com — does it position me well for B2B agency clients?"
+
+Claude evaluates positioning coherence, specialization clarity, and whether the work speaks to the right buyer — not just general design quality.
+
+---
+
+### Export report as HTML
+
+> "Review my portfolio at https://yourname.com and export the report as an HTML file I can share with my mentor."
+
+Claude runs the full review and writes a self-contained `.html` file with styled severity badges, a collapsible issue log, and checklist rendering.
+
+---
+
+### Targeted section fix
+
+> "My About page feels weak. Can you review just that section? https://yourname.com/about"
+
+Claude evaluates the About page against the who/what/strengths/impact checklist and narrative criteria, without scoring the rest of the portfolio.
+
+---
 
 ## Installation
 
