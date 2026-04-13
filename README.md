@@ -124,10 +124,6 @@ Then start a new Claude Code session — the skill will be available immediately
 
 ```
 portfolio-review/
-├── .claude/
-│   └── skills/
-│       └── portfolio-review/
-│           └── SKILL.md          # The skill definition
 ├── .claude-plugin/
 │   ├── marketplace.json          # Plugin marketplace manifest
 │   └── plugin.json               # Plugin metadata and skill paths
